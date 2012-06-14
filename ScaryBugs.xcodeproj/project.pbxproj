@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		A33813D31589AEAF0047513B /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = A33813D21589AEAF0047513B /* ScaryBugData.m */; };
 		A33813D61589B1F80047513B /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A33813D51589B1F80047513B /* ScaryBugDoc.m */; };
+		A33813E0158A47B10047513B /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = A33813D7158A47B10047513B /* attribution.txt */; };
+		A33813E1158A47B10047513B /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813D8158A47B10047513B /* ladybugThumb.jpg */; };
+		A33813E2158A47B10047513B /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813D9158A47B10047513B /* ladybug.jpg */; };
+		A33813E3158A47B10047513B /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DA158A47B10047513B /* potatoBugThumb.jpg */; };
+		A33813E4158A47B10047513B /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DB158A47B10047513B /* wolfSpiderThumb.jpg */; };
+		A33813E5158A47B10047513B /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DC158A47B10047513B /* centipedeThumb.jpg */; };
+		A33813E6158A47B10047513B /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DD158A47B10047513B /* centipede.jpg */; };
+		A33813E7158A47B10047513B /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DE158A47B10047513B /* wolfSpider.jpg */; };
+		A33813E8158A47B10047513B /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DF158A47B10047513B /* potatoBug.jpg */; };
 		A3B11E0715896A4200F36382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0615896A4200F36382 /* UIKit.framework */; };
 		A3B11E0915896A4200F36382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0815896A4200F36382 /* Foundation.framework */; };
 		A3B11E0B15896A4200F36382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0A15896A4200F36382 /* CoreGraphics.framework */; };
@@ -41,6 +50,15 @@
 		A33813D21589AEAF0047513B /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
 		A33813D41589B1F80047513B /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
 		A33813D51589B1F80047513B /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		A33813D7158A47B10047513B /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		A33813D8158A47B10047513B /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		A33813D9158A47B10047513B /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		A33813DA158A47B10047513B /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		A33813DB158A47B10047513B /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		A33813DC158A47B10047513B /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		A33813DD158A47B10047513B /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		A33813DE158A47B10047513B /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		A33813DF158A47B10047513B /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
 		A3B11E0215896A4200F36382 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B11E0615896A4200F36382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3B11E0815896A4200F36382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +166,15 @@
 		A3B11E0C15896A4200F36382 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				A33813D7158A47B10047513B /* attribution.txt */,
+				A33813D8158A47B10047513B /* ladybugThumb.jpg */,
+				A33813D9158A47B10047513B /* ladybug.jpg */,
+				A33813DA158A47B10047513B /* potatoBugThumb.jpg */,
+				A33813DB158A47B10047513B /* wolfSpiderThumb.jpg */,
+				A33813DC158A47B10047513B /* centipedeThumb.jpg */,
+				A33813DD158A47B10047513B /* centipede.jpg */,
+				A33813DE158A47B10047513B /* wolfSpider.jpg */,
+				A33813DF158A47B10047513B /* potatoBug.jpg */,
 				A33813D015896EDE0047513B /* Model */,
 				A33813CE15896ED50047513B /* GUI */,
 				A3B11E0D15896A4200F36382 /* Supporting Files */,
@@ -259,6 +286,15 @@
 				A3B11E1115896A4200F36382 /* InfoPlist.strings in Resources */,
 				A3B11E1A15896A4200F36382 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A3B11E1D15896A4200F36382 /* MainStoryboard_iPad.storyboard in Resources */,
+				A33813E0158A47B10047513B /* attribution.txt in Resources */,
+				A33813E1158A47B10047513B /* ladybugThumb.jpg in Resources */,
+				A33813E2158A47B10047513B /* ladybug.jpg in Resources */,
+				A33813E3158A47B10047513B /* potatoBugThumb.jpg in Resources */,
+				A33813E4158A47B10047513B /* wolfSpiderThumb.jpg in Resources */,
+				A33813E5158A47B10047513B /* centipedeThumb.jpg in Resources */,
+				A33813E6158A47B10047513B /* centipede.jpg in Resources */,
+				A33813E7158A47B10047513B /* wolfSpider.jpg in Resources */,
+				A33813E8158A47B10047513B /* potatoBug.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
