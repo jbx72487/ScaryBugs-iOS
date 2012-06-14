@@ -10,12 +10,18 @@
 
 #import "DetailViewController.h"
 
+#import "ScaryBugDoc.h"
+#import "ScaryBugData.h"
+
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
 @end
 
 @implementation MasterViewController
+
+@synthesize bugs = _bugs;
 
 @synthesize detailViewController = _detailViewController;
 
@@ -37,6 +43,9 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+    // "title" is a built-in property on view controllers. when a Navigation controller displays a view controller, it displays whatever is in the "title" property in the title bar
+    self.title = @"Scary Bugs";
 }
 
 - (void)viewDidUnload
@@ -47,11 +56,14 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+    return YES;
+    /*
+     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
     }
+     */
 }
 
 - (void)insertNewObject:(id)sender
@@ -73,15 +85,29 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    // return _objects.count;
+    return _bugs.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    /*
+     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
     NSDate *object = [_objects objectAtIndex:indexPath.row];
     cell.textLabel.text = [object description];
+    return cell;
+     */
+    
+    
+    // setting up the cell that will be displayed for a particular row
+    // the OS will call this method once per row for each row
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell"];
+    // dequeueReusableCellWithIdentifier etc etc is an important performance optimization. Keep in mind that table views can contain a very large number of rows, but only a certain number of them are displayed on screen at a time. So rather than creating a new cell each time a new row cycles into the screen, the OS can improve performance by re-using a cell that was already created, but scrolled off-screen.
+    // So that’s what the dequeueReusableCellWithIdentifier call is. If there’s not a reusable cell available, we just create a new cell based on the cell you set up in Interface Builder (remember how we set it as basic, and named it “MyBasicCell”?).
+    ScaryBugDoc *bug = [self.bugs objectAtIndex:indexPath.row];
+    cell.textLabel.text = bug.data.title;
+    cell.imageView.image = bug.thumbImage;
     return cell;
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A33813D31589AEAF0047513B /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = A33813D21589AEAF0047513B /* ScaryBugData.m */; };
+		A33813D61589B1F80047513B /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = A33813D51589B1F80047513B /* ScaryBugDoc.m */; };
 		A3B11E0715896A4200F36382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0615896A4200F36382 /* UIKit.framework */; };
 		A3B11E0915896A4200F36382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0815896A4200F36382 /* Foundation.framework */; };
 		A3B11E0B15896A4200F36382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0A15896A4200F36382 /* CoreGraphics.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A33813D11589AEAF0047513B /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		A33813D21589AEAF0047513B /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		A33813D41589B1F80047513B /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		A33813D51589B1F80047513B /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
 		A3B11E0215896A4200F36382 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B11E0615896A4200F36382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3B11E0815896A4200F36382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33813CE15896ED50047513B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				A3B11E1515896A4200F36382 /* AppDelegate.h */,
+				A3B11E1615896A4200F36382 /* AppDelegate.m */,
+				A3B11E1815896A4200F36382 /* MainStoryboard_iPhone.storyboard */,
+				A3B11E1B15896A4200F36382 /* MainStoryboard_iPad.storyboard */,
+				A3B11E1E15896A4200F36382 /* MasterViewController.h */,
+				A3B11E1F15896A4200F36382 /* MasterViewController.m */,
+				A3B11E2115896A4200F36382 /* DetailViewController.h */,
+				A3B11E2215896A4200F36382 /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		A33813D015896EDE0047513B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A33813D11589AEAF0047513B /* ScaryBugData.h */,
+				A33813D21589AEAF0047513B /* ScaryBugData.m */,
+				A33813D41589B1F80047513B /* ScaryBugDoc.h */,
+				A33813D51589B1F80047513B /* ScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A3B11DF715896A4200F36382 = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +148,8 @@
 		A3B11E0C15896A4200F36382 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				A3B11E1515896A4200F36382 /* AppDelegate.h */,
-				A3B11E1615896A4200F36382 /* AppDelegate.m */,
-				A3B11E1815896A4200F36382 /* MainStoryboard_iPhone.storyboard */,
-				A3B11E1B15896A4200F36382 /* MainStoryboard_iPad.storyboard */,
-				A3B11E1E15896A4200F36382 /* MasterViewController.h */,
-				A3B11E1F15896A4200F36382 /* MasterViewController.m */,
-				A3B11E2115896A4200F36382 /* DetailViewController.h */,
-				A3B11E2215896A4200F36382 /* DetailViewController.m */,
+				A33813D015896EDE0047513B /* Model */,
+				A33813CE15896ED50047513B /* GUI */,
 				A3B11E0D15896A4200F36382 /* Supporting Files */,
 			);
 			path = ScaryBugs;
@@ -271,6 +297,8 @@
 				A3B11E1715896A4200F36382 /* AppDelegate.m in Sources */,
 				A3B11E2015896A4200F36382 /* MasterViewController.m in Sources */,
 				A3B11E2315896A4200F36382 /* DetailViewController.m in Sources */,
+				A33813D31589AEAF0047513B /* ScaryBugData.m in Sources */,
+				A33813D61589B1F80047513B /* ScaryBugDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +478,7 @@
 				A3B11E3D15896A4200F36382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B11E3E15896A4200F36382 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +487,7 @@
 				A3B11E4015896A4200F36382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
