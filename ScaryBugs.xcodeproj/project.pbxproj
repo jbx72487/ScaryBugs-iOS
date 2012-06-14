@@ -18,6 +18,12 @@
 		A33813E6158A47B10047513B /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DD158A47B10047513B /* centipede.jpg */; };
 		A33813E7158A47B10047513B /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DE158A47B10047513B /* wolfSpider.jpg */; };
 		A33813E8158A47B10047513B /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33813DF158A47B10047513B /* potatoBug.jpg */; };
+		A36A63C4158A9CFA0071530B /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A63C2158A9CFA0071530B /* RateView.m */; };
+		A36A63C8158A9D260071530B /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = A36A63C7158A9D260071530B /* UIImageExtras.m */; };
+		A36A63CD158A9D420071530B /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A63CA158A9D420071530B /* shockedface2_empty.png */; };
+		A36A63CE158A9D420071530B /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A63CB158A9D420071530B /* shockedface2_full.png */; };
+		A36A63CF158A9D420071530B /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A63CC158A9D420071530B /* shockedface2_half.png */; };
+		A36A63D1158A9D4B0071530B /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A36A63D0158A9D4B0071530B /* logo1.png */; };
 		A3B11E0715896A4200F36382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0615896A4200F36382 /* UIKit.framework */; };
 		A3B11E0915896A4200F36382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0815896A4200F36382 /* Foundation.framework */; };
 		A3B11E0B15896A4200F36382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B11E0A15896A4200F36382 /* CoreGraphics.framework */; };
@@ -59,6 +65,14 @@
 		A33813DD158A47B10047513B /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
 		A33813DE158A47B10047513B /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		A33813DF158A47B10047513B /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		A36A63C2158A9CFA0071530B /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		A36A63C3158A9CFA0071530B /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		A36A63C6158A9D260071530B /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		A36A63C7158A9D260071530B /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
+		A36A63CA158A9D420071530B /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		A36A63CB158A9D420071530B /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		A36A63CC158A9D420071530B /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+		A36A63D0158A9D4B0071530B /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		A3B11E0215896A4200F36382 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B11E0615896A4200F36382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3B11E0815896A4200F36382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +147,35 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		A36A63C0158A9CE50071530B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A36A63C2158A9CFA0071530B /* RateView.m */,
+				A36A63C3158A9CFA0071530B /* RateView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A36A63C5158A9D160071530B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A36A63C6158A9D260071530B /* UIImageExtras.h */,
+				A36A63C7158A9D260071530B /* UIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A36A63C9158A9D320071530B /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				A36A63D0158A9D4B0071530B /* logo1.png */,
+				A36A63CA158A9D420071530B /* shockedface2_empty.png */,
+				A36A63CB158A9D420071530B /* shockedface2_full.png */,
+				A36A63CC158A9D420071530B /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
 		A3B11DF715896A4200F36382 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +209,9 @@
 		A3B11E0C15896A4200F36382 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				A36A63C9158A9D320071530B /* Art */,
+				A36A63C5158A9D160071530B /* Helpers */,
+				A36A63C0158A9CE50071530B /* Views */,
 				A33813D7158A47B10047513B /* attribution.txt */,
 				A33813D8158A47B10047513B /* ladybugThumb.jpg */,
 				A33813D9158A47B10047513B /* ladybug.jpg */,
@@ -295,6 +341,10 @@
 				A33813E6158A47B10047513B /* centipede.jpg in Resources */,
 				A33813E7158A47B10047513B /* wolfSpider.jpg in Resources */,
 				A33813E8158A47B10047513B /* potatoBug.jpg in Resources */,
+				A36A63CD158A9D420071530B /* shockedface2_empty.png in Resources */,
+				A36A63CE158A9D420071530B /* shockedface2_full.png in Resources */,
+				A36A63CF158A9D420071530B /* shockedface2_half.png in Resources */,
+				A36A63D1158A9D4B0071530B /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +393,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B11E3815896A4200F36382 /* ScaryBugsTests.m in Sources */,
+				A36A63C4158A9CFA0071530B /* RateView.m in Sources */,
+				A36A63C8158A9D260071530B /* UIImageExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
