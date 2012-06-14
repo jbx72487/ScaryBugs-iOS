@@ -39,23 +39,23 @@
 		A3B11E0615896A4200F36382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3B11E0815896A4200F36382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3B11E0A15896A4200F36382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3B11E0E15896A4200F36382 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
+		A3B11E0E15896A4200F36382 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
 		A3B11E1015896A4200F36382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3B11E1215896A4200F36382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3B11E1415896A4200F36382 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
-		A3B11E1515896A4200F36382 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B11E1415896A4200F36382 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
+		A3B11E1515896A4200F36382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3B11E1615896A4200F36382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3B11E1915896A4200F36382 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A3B11E1C15896A4200F36382 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A3B11E1E15896A4200F36382 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		A3B11E1E15896A4200F36382 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		A3B11E1F15896A4200F36382 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A3B11E2115896A4200F36382 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		A3B11E2115896A4200F36382 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		A3B11E2215896A4200F36382 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A3B11E2915896A4200F36382 /* ScaryBugsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B11E2A15896A4200F36382 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A3B11E3215896A4200F36382 /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
+		A3B11E3215896A4200F36382 /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
 		A3B11E3415896A4200F36382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3B11E3615896A4200F36382 /* ScaryBugsTests.h */ = {isa = PBXFileReference; path = ScaryBugsTests.h; sourceTree = "<group>"; };
+		A3B11E3615896A4200F36382 /* ScaryBugsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaryBugsTests.h; sourceTree = "<group>"; };
 		A3B11E3715896A4200F36382 /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
